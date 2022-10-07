@@ -1,0 +1,37 @@
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-text-color: #2196F3;
+}
+.page {
+    background  #F5F5F5;
+    color:  var(--primary-text-color);
+}
+.logo {
+    color: var(--accent-text-color);
+}
+.hero-title {
+    background: #2F303A;
+    color: #FFFFFF;
+}
+/* site-nav  */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.site-button .link:hover,
+.site-button .link:focus {
+    color: var(--accent-text-color);
+}
+.section {
+    color: var(--primary-text-color);
+}
+.text{
+    color: var(--title-text-color);
+}
+
+/* footer */
+footer{
+    background: #2F303A;
+}
