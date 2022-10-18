@@ -3,6 +3,7 @@
     --title-text-color: #757575;
     --accent-text-color: #2196F3;
     --fon-text-color: #FFFFFF;
+    --fon-text-color-rgba: #FFFFFF99;
     --bg-color: #2F303A;
 }
 .page {
@@ -36,6 +37,12 @@
     color: var(--fon-text-color);
 }
 /* footer */
+.text-link {
+    color: var(--fon-text-color);
+}
+.text-links {
+    color: var(--fon-text-color-rgba);
+}
 footer{
     background: var(--bg-color);
     color: var(--fon-text-color);
