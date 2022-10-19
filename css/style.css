@@ -6,9 +6,10 @@
     --fon-text-color-rgba: #FFFFFF99;
     --bg-color: #2F303A;
 }
-.page {
+.body {
     background:  var(--fon-text-color);
     color:  var(--primary-text-color);
+    font-family: Roboto, sans-serif;
 }
 .logo {
     color: var(--accent-text-color);
@@ -16,32 +17,122 @@
 .hero-title {
     background: var(--bg-color);
     color: var(--fon-text-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+}
+
+.hero .button {
+    color: var(--fon-text-color);
+    background: var(--accent-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
 }
 /* site-nav  */
 .site-nav .link {
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
 .site-nav .link:focus{
     color: var(--accent-text-color);
 }
+
+.auth-nav .link
+{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-text-color);
+}
 .section {
     color: var(--primary-text-color);
 }
+.section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+}
+
 .text{
     color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
 }
-.site-button .link:hover,
-.site-button .link:focus{
+
+.section-primary {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.title {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+}
+.text-title{
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+}
+.site-button-list {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+}
+
+.site-button-list .link:hover,
+.site-button-list .link:focus{
     background-color: var(--accent-text-color);
     color: var(--fon-text-color);
+}
+.section-title-portfolio {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text-portfolio {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88;
 }
 /* footer */
 .text-link {
     color: var(--fon-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
 }
 .text-links {
     color: var(--fon-text-color-rgba);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
 }
 footer{
     background: var(--bg-color);
