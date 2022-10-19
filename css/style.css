@@ -31,6 +31,9 @@
     font-size: 16px;
     line-height: 1,88;
 }
+div {
+   text-align: center;
+}
 /* site-nav  */
 .site-nav .link {
     color: var(--primary-text-color);  
