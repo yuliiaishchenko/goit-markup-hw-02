@@ -10,6 +10,10 @@
     background:  var(--fon-text-color);
     color:  var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+header {
+    letter-spacing: 0.02em;
 }
 
 a {
@@ -21,40 +25,47 @@ a {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .accent {
     color: var(--accent-text-color);
 }
-
+.hero {
+    background-color: var(--bg-color);
+}
 .hero-title {
-    background: var(--bg-color);
     color: var(--fon-text-color);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-
+ul {
+    list-style: none;
+}
 .hero .button {
     color: var(--fon-text-color);
     background: var(--accent-text-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 div {
    text-align: center;
 }
+
 /* site-nav  */
 .site-nav .link {
     color: var(--primary-text-color);  
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .site-nav .link:hover, 
@@ -67,7 +78,7 @@ div {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -82,21 +93,20 @@ div {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
 }
 
 .text{
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 
 .section-primary {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -105,19 +115,18 @@ div {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 .text-title{
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 .site-button-list {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
 }
 
@@ -131,30 +140,32 @@ div {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .text-portfolio {
     color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
 }
 /* footer */
 .text-link {
     color: var(--fon-text-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 .text-links {
     color: var(--fon-text-color-rgba);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
 }
 
 button {
     cursor: pointer;
+    font-family: Roboto, sans-serif;
+}
+address {
+    font-style: normal;
 }
 footer{
     background: var(--bg-color);
@@ -165,6 +176,6 @@ footer{
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
