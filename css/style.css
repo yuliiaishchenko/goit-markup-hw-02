@@ -56,6 +56,10 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
+.hero .button:hover,
+.hero .button:focus
+{background: #188CE8}
+
 div {
    text-align: center;
 }
@@ -163,6 +167,11 @@ div {
 button {
     cursor: pointer;
     font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 address {
     font-style: normal;
@@ -171,6 +180,7 @@ footer{
     background: var(--bg-color);
     color: var(--fon-text-color);
     }
+
 .logo-footer {
     color: var(--fon-text-color);
     font-family: 'Raleway';
@@ -178,4 +188,17 @@ footer{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+
+.logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-text-color);
+}
+
+.text-link:hover,
+.text-link:focus { color: var(--accent-text-color);
+}
+.text-links:hover,
+.text-links:focus {
+    color: var(--accent-text-color);
 }
